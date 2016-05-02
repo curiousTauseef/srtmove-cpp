@@ -66,7 +66,7 @@ int arg2msec(const char *arg) { // arg can ba "6" for 6 seconds or "3:10" for 3 
 					mul *= 10;
 				} else {
 					cerr << "Malformed argument." << endl;
-                    cerr << "You can type -10m3s for making your subtitles appear 10 minutes and 3 seconds earlier, for instance." <<endl;
+					cerr << "You can type -10m3s for making your subtitles appear 10 minutes and 3 seconds earlier, for instance." <<endl;
 					return 0;
 				}
 		}
